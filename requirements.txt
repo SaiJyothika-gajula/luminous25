@@ -4,6 +4,5 @@ numpy
 folium
 streamlit-folium
 scikit-learn
-dimod
-neal
+
 
