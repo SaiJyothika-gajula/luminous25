@@ -26,7 +26,9 @@ import random
 # -------------------------
 # QUBO builder + solver for TSP (drop-in)
 # -------------------------
-import dimod
+# Custom simulated annealing already in your code
+best_route, best_cost = optimize_route_quantum_inspired(cluster_indices, distmat)
+
 
 def build_tsp_qubo_for_nodes(nodes, distmat, A=1000.0):
     """
